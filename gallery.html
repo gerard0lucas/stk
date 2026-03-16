@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Gallery – Sri Takshashila Gurukul. Moments from our programs, workshops, and community." />
+  <title>Gallery | Sri Takshashila Gurukul</title>
+  <link rel="icon" href="Assests/Logo.png" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: { primary: '#001e8c', accent: '#df5030', warm: '#f3d8b2' },
+          fontFamily: { sans: ['Outfit', 'system-ui', 'sans-serif'] },
+        },
+      },
+    };
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="font-sans antialiased text-gray-800 bg-white">
+  <div id="site-header"></div>
+
+  <!-- Page hero -->
+  <section class="relative py-16 md:py-24 bg-gradient-to-br from-primary/95 to-primary text-white overflow-hidden">
+    <div class="absolute inset-0 bg-[url('Assests/carousel_10.jpeg')] bg-cover bg-center opacity-20"></div>
+    <div class="relative max-w-7xl mx-auto px-4 sm:px-6 text-center">
+      <span class="inline-block text-white/90 text-sm font-semibold uppercase tracking-widest mb-3">Moments</span>
+      <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">Our Gallery</h1>
+      <p class="text-xl md:text-2xl text-white/90 max-w-3xl mx-auto">Programs, workshops, and community in action.</p>
+    </div>
+  </section>
+
+  <!-- Gallery intro + grid -->
+  <section class="py-16 md:py-24 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6">
+      <p class="text-center text-gray-600 max-w-2xl mx-auto mb-12">A glimpse into our education initiatives, workshops, and the people we serve.</p>
+      <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-6">
+        <button type="button" class="gallery-item group group/btn text-left rounded-2xl overflow-hidden shadow-md hover:shadow-xl border border-gray-100 transition-all duration-300 hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2" data-src="Assests/carousel_5.jpeg" data-alt="Early years and community">
+          <div class="aspect-square overflow-hidden bg-gray-100 relative">
+            <img src="Assests/carousel_5.jpeg" alt="Early years and community" class="w-full h-full object-cover group-hover/btn:scale-105 transition duration-300" loading="lazy" />
+            <div class="absolute inset-0 bg-primary/0 group-hover/btn:bg-primary/10 transition-colors duration-300 flex items-center justify-center">
+              <span class="opacity-0 group-hover/btn:opacity-100 transition-opacity duration-300 w-12 h-12 rounded-full bg-white/90 flex items-center justify-center text-primary"><i class="fa-solid fa-expand"></i></span>
+            </div>
+          </div>
+        </button>
+        <button type="button" class="gallery-item group group/btn text-left rounded-2xl overflow-hidden shadow-md hover:shadow-xl border border-gray-100 transition-all duration-300 hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2" data-src="Assests/carousel_10.jpeg" data-alt="Education first">
+          <div class="aspect-square overflow-hidden bg-gray-100 relative">
+            <img src="Assests/carousel_10.jpeg" alt="Education first" class="w-full h-full object-cover group-hover/btn:scale-105 transition duration-300" loading="lazy" />
+            <div class="absolute inset-0 bg-primary/0 group-hover/btn:bg-primary/10 transition-colors duration-300 flex items-center justify-center">
+              <span class="opacity-0 group-hover/btn:opacity-100 transition-opacity duration-300 w-12 h-12 rounded-full bg-white/90 flex items-center justify-center text-primary"><i class="fa-solid fa-expand"></i></span>
+            </div>
+          </div>
+        </button>
+        <button type="button" class="gallery-item group group/btn text-left rounded-2xl overflow-hidden shadow-md hover:shadow-xl border border-gray-100 transition-all duration-300 hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2" data-src="Assests/carousel_11.jpeg" data-alt="Community impact">
+          <div class="aspect-square overflow-hidden bg-gray-100 relative">
+            <img src="Assests/carousel_11.jpeg" alt="Community impact" class="w-full h-full object-cover group-hover/btn:scale-105 transition duration-300" loading="lazy" />
+            <div class="absolute inset-0 bg-primary/0 group-hover/btn:bg-primary/10 transition-colors duration-300 flex items-center justify-center">
+              <span class="opacity-0 group-hover/btn:opacity-100 transition-opacity duration-300 w-12 h-12 rounded-full bg-white/90 flex items-center justify-center text-primary"><i class="fa-solid fa-expand"></i></span>
+            </div>
+          </div>
+        </button>
+        <button type="button" class="gallery-item group group/btn text-left rounded-2xl overflow-hidden shadow-md hover:shadow-xl border border-gray-100 transition-all duration-300 hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2" data-src="Assests/about_us.jpeg" data-alt="About us – learning together">
+          <div class="aspect-square overflow-hidden bg-gray-100 relative">
+            <img src="Assests/about_us.jpeg" alt="About us – learning together" class="w-full h-full object-cover group-hover/btn:scale-105 transition duration-300" loading="lazy" />
+            <div class="absolute inset-0 bg-primary/0 group-hover/btn:bg-primary/10 transition-colors duration-300 flex items-center justify-center">
+              <span class="opacity-0 group-hover/btn:opacity-100 transition-opacity duration-300 w-12 h-12 rounded-full bg-white/90 flex items-center justify-center text-primary"><i class="fa-solid fa-expand"></i></span>
+            </div>
+          </div>
+        </button>
+        <button type="button" class="gallery-item group group/btn text-left rounded-2xl overflow-hidden shadow-md hover:shadow-xl border border-gray-100 transition-all duration-300 hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2" data-src="Assests/carousel_9.jpeg" data-alt="Sustainable future">
+          <div class="aspect-square overflow-hidden bg-gray-100 relative">
+            <img src="Assests/carousel_9.jpeg" alt="Sustainable future" class="w-full h-full object-cover group-hover/btn:scale-105 transition duration-300" loading="lazy" />
+            <div class="absolute inset-0 bg-primary/0 group-hover/btn:bg-primary/10 transition-colors duration-300 flex items-center justify-center">
+              <span class="opacity-0 group-hover/btn:opacity-100 transition-opacity duration-300 w-12 h-12 rounded-full bg-white/90 flex items-center justify-center text-primary"><i class="fa-solid fa-expand"></i></span>
+            </div>
+          </div>
+        </button>
+        <button type="button" class="gallery-item group group/btn text-left rounded-2xl overflow-hidden shadow-md hover:shadow-xl border border-gray-100 transition-all duration-300 hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2" data-src="Assests/carousel_12.jpeg" data-alt="Hope and humanity">
+          <div class="aspect-square overflow-hidden bg-gray-100 relative">
+            <img src="Assests/carousel_12.jpeg" alt="Hope and humanity" class="w-full h-full object-cover group-hover/btn:scale-105 transition duration-300" loading="lazy" />
+            <div class="absolute inset-0 bg-primary/0 group-hover/btn:bg-primary/10 transition-colors duration-300 flex items-center justify-center">
+              <span class="opacity-0 group-hover/btn:opacity-100 transition-opacity duration-300 w-12 h-12 rounded-full bg-white/90 flex items-center justify-center text-primary"><i class="fa-solid fa-expand"></i></span>
+            </div>
+          </div>
+          <div class="p-3 bg-white">
+            <span class="text-sm font-medium text-gray-700 group-hover/btn:text-primary transition">Hope &amp; humanity</span>
+          </div>
+        </button>
+        <button type="button" class="gallery-item group group/btn text-left rounded-2xl overflow-hidden shadow-md hover:shadow-xl border border-gray-100 transition-all duration-300 hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2" data-src="Assests/statics.png" data-alt="Our reach – schools and students">
+          <div class="aspect-square overflow-hidden bg-gray-100 relative">
+            <img src="Assests/statics.png" alt="Our reach – schools and students" class="w-full h-full object-cover object-top group-hover/btn:scale-105 transition duration-300" loading="lazy" />
+            <div class="absolute inset-0 bg-primary/0 group-hover/btn:bg-primary/10 transition-colors duration-300 flex items-center justify-center">
+              <span class="opacity-0 group-hover/btn:opacity-100 transition-opacity duration-300 w-12 h-12 rounded-full bg-white/90 flex items-center justify-center text-primary"><i class="fa-solid fa-expand"></i></span>
+            </div>
+          </div>
+        </button>
+        <button type="button" class="gallery-item group group/btn text-left rounded-2xl overflow-hidden shadow-md hover:shadow-xl border border-gray-100 transition-all duration-300 hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2" data-src="Assests/Course_Hoop_Art.png" data-alt="Hoop art and soft skills">
+          <div class="aspect-square overflow-hidden bg-gray-100 relative">
+            <img src="Assests/Course_Hoop_Art.png" alt="Hoop art and soft skills" class="w-full h-full object-cover group-hover/btn:scale-105 transition duration-300" loading="lazy" />
+            <div class="absolute inset-0 bg-primary/0 group-hover/btn:bg-primary/10 transition-colors duration-300 flex items-center justify-center">
+              <span class="opacity-0 group-hover/btn:opacity-100 transition-opacity duration-300 w-12 h-12 rounded-full bg-white/90 flex items-center justify-center text-primary"><i class="fa-solid fa-expand"></i></span>
+            </div>
+          </div>
+        </button>
+        <button type="button" class="gallery-item group group/btn text-left rounded-2xl overflow-hidden shadow-md hover:shadow-xl border border-gray-100 transition-all duration-300 hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2" data-src="Assests/Workshop_Kids_Activity.png" data-alt="Kids activity workshop">
+          <div class="aspect-square overflow-hidden bg-gray-100 relative">
+            <img src="Assests/Workshop_Kids_Activity.png" alt="Kids activity workshop" class="w-full h-full object-cover group-hover/btn:scale-105 transition duration-300" loading="lazy" />
+            <div class="absolute inset-0 bg-primary/0 group-hover/btn:bg-primary/10 transition-colors duration-300 flex items-center justify-center">
+              <span class="opacity-0 group-hover/btn:opacity-100 transition-opacity duration-300 w-12 h-12 rounded-full bg-white/90 flex items-center justify-center text-primary"><i class="fa-solid fa-expand"></i></span>
+            </div>
+          </div>
+        </button>
+        <button type="button" class="gallery-item group group/btn text-left rounded-2xl overflow-hidden shadow-md hover:shadow-xl border border-gray-100 transition-all duration-300 hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2" data-src="Assests/Workshop_Saree_Kuchu.png" data-alt="Workshop – Saree Kuchu">
+          <div class="aspect-square overflow-hidden bg-gray-100 relative">
+            <img src="Assests/Workshop_Saree_Kuchu.png" alt="Workshop – Saree Kuchu" class="w-full h-full object-cover group-hover/btn:scale-105 transition duration-300" loading="lazy" />
+            <div class="absolute inset-0 bg-primary/0 group-hover/btn:bg-primary/10 transition-colors duration-300 flex items-center justify-center">
+              <span class="opacity-0 group-hover/btn:opacity-100 transition-opacity duration-300 w-12 h-12 rounded-full bg-white/90 flex items-center justify-center text-primary"><i class="fa-solid fa-expand"></i></span>
+            </div>
+          </div>
+        </button>
+        <button type="button" class="gallery-item group group/btn text-left rounded-2xl overflow-hidden shadow-md hover:shadow-xl border border-gray-100 transition-all duration-300 hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2" data-src="Assests/workshop_robot.jpg" data-alt="Robotics workshop">
+          <div class="aspect-square overflow-hidden bg-gray-100 relative">
+            <img src="Assests/workshop_robot.jpg" alt="Robotics workshop" class="w-full h-full object-cover group-hover/btn:scale-105 transition duration-300" loading="lazy" />
+            <div class="absolute inset-0 bg-primary/0 group-hover/btn:bg-primary/10 transition-colors duration-300 flex items-center justify-center">
+              <span class="opacity-0 group-hover/btn:opacity-100 transition-opacity duration-300 w-12 h-12 rounded-full bg-white/90 flex items-center justify-center text-primary"><i class="fa-solid fa-expand"></i></span>
+            </div>
+          </div>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Lightbox -->
+  <div id="gallery-lightbox" class="fixed inset-0 z-[100] hidden items-center justify-center bg-black/90 p-4" aria-modal="true" role="dialog" aria-label="View image">
+    <button type="button" id="lightbox-close" class="absolute top-4 right-4 z-10 w-12 h-12 rounded-full bg-white/10 hover:bg-white/20 flex items-center justify-center text-white transition" aria-label="Close">
+      <i class="fa-solid fa-times text-xl"></i>
+    </button>
+    <img id="lightbox-img" src="" alt="" class="max-w-full max-h-[90vh] w-auto h-auto object-contain rounded-lg shadow-2xl" />
+  </div>
+
+  <div id="site-footer"></div>
+
+  <script src="includes/load-header-footer.js"></script>
+  <script>
+    (function() {
+      var lightbox = document.getElementById('gallery-lightbox');
+      var lightboxImg = document.getElementById('lightbox-img');
+      var lightboxClose = document.getElementById('lightbox-close');
+      if (!lightbox || !lightboxImg) return;
+
+      function openLightbox(src, alt) {
+        lightboxImg.src = src;
+        lightboxImg.alt = alt || '';
+        lightbox.classList.remove('hidden');
+        lightbox.classList.add('flex');
+        document.body.style.overflow = 'hidden';
+      }
+
+      function closeLightbox() {
+        lightbox.classList.add('hidden');
+        lightbox.classList.remove('flex');
+        document.body.style.overflow = '';
+      }
+
+      document.querySelectorAll('.gallery-item').forEach(function(btn) {
+        btn.addEventListener('click', function() {
+          var src = this.getAttribute('data-src');
+          var alt = this.getAttribute('data-alt');
+          if (src) openLightbox(src, alt);
+        });
+      });
+
+      lightboxClose.addEventListener('click', closeLightbox);
+      lightbox.addEventListener('click', function(e) {
+        if (e.target === lightbox) closeLightbox();
+      });
+      document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape') closeLightbox();
+      });
+    })();
+  </script>
+</body>
+</html>
